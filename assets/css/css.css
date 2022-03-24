@@ -1,0 +1,126 @@
+:root {
+--bs-light-rgb: 229, 229, 229;}
+
+body{
+    position: relative; 
+    background-color: rgb(20, 33, 61);
+    color: aliceblue;
+    overflow-x: hidden;
+}
+
+#about-me{
+    padding-top: 57px;
+}
+
+.evidenziato{
+    color:rgb(252, 163, 17);
+}
+
+#descrizione{
+    font-size: 1.4rem;
+}
+
+#about-me-1{
+    padding-top: 2%;
+}
+
+#about-me-2{
+    padding-top: 5%;
+    padding-bottom: 7.5%;
+}
+
+#about-me-2 a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.vscode-color{
+    color: aqua;
+}
+
+
+/*#skills{
+    padding-top: 10%;
+   
+}
+*/
+
+#contacts{
+    padding-top: 10%;
+    padding-bottom: 10%;
+   
+}
+
+.carousel-caption a{
+    text-decoration: none;
+}
+
+/*SKILLS ICONS*/
+.skillicon{
+    max-height: 70px;
+}
+
+#bonus-divisor{
+    height: 3px;
+    color:rgb(252, 163, 17);
+}
+
+.bg-html{
+    background-color: rgb(227, 76, 38);
+}
+
+.bg-css{
+    background-color: rgb(102, 211, 250);
+}
+
+.bg-js{
+    background-color: rgb(240, 219, 79);
+}
+
+.bg-php{
+    background-color: rgb(176, 179, 214) !important;
+  }
+
+.bg-sql{
+    background-color: rgb(242, 145, 17);
+}
+
+.bg-java{
+    background-color: rgb(237, 29, 37);
+}
+
+.bg-bootstrap{
+    background-color: rgb(85, 60, 123);
+}
+
+.bg-react{
+    background-color: rgb(97, 219, 251);
+}
+
+.bg-njs{
+    background-color: rgb(104, 160, 99);
+}
+
+.bg-wordpress{
+    background-color: rgb(68, 65, 64);
+}
+
+
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-freccia1 /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
+#container-contacts-description{
+    text-align: center;
+    width: 30%;
+    padding-bottom: 2.5%;
+}
+
+#footer{
+    padding-top: 10px;
+    background-color: #0d6efd;
+}
